@@ -11,5 +11,5 @@ import datetime
 import streamlit as st
 
 kyou = datetime.datetime.today()
-d = st.date_input('出荷日を入力してください。', datetime.date(f'{kyou.year}{kyou.month}{kyou.day}'))
+d = st.date_input('出荷日を入力してください。')
 st.write('出荷日：', d)
