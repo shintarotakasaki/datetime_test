@@ -14,6 +14,6 @@ kyou = datetime.datetime.today()
 d = st.date_input('出荷日を入力してください。')
 buturyu = st.selectbox(
     '物流センターを選択してください',
-    ['AX44', 'AX60', 'AX02','AX36','AX86,'AX28'])
+    ['AX44', 'AX60', 'AX02','AX36','AX86','AX28'])
 st.write('出荷日：', d)
 st.write('物流センター：',buturyu)
