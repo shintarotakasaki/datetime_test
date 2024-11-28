@@ -17,5 +17,5 @@ konpou = st.selectbox("梱包数を選択してください",['1','2','3','4','5
 if konpou =='それ以上':
     konpou = st.text_input('梱包数を入力してください')
 
-st.write('出荷日：', d)
+st.write('出荷日：', syukka)
 st.write('物流センター：',buturyu)
