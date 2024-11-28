@@ -12,12 +12,8 @@ import streamlit as st
 
 kyou = datetime.datetime.today()
 syukka = st.date_input("出荷日を入力してください")
-buturyu = st.selectbox(
-    "物流センターを選択してください",
-    ['AX44', 'AX60', 'AX02','AX36','AX86','AX28'])
-konpou = st.selectbox(
-    "梱包数を選択してください"
-    ['1','2','3','4','5','それ以上'])
+buturyu = st.selectbox("物流センターを選択してください",['AX44', 'AX60', 'AX02','AX36','AX86','AX28'])
+konpou = st.selectbox("梱包数を選択してください",['1','2','3','4','5','それ以上'])
 if konpou =='それ以上':
     konpou = st.text_input('梱包数を入力してください')
 
