@@ -17,7 +17,7 @@ buturyu = st.selectbox(
     ['AX44', 'AX60', 'AX02','AX36','AX86','AX28'])
 konpou = st.selectbox(
     "梱包数を選択してください"
-    ['1','2','3','4','5',"それ以上"])
+    ['1','2','3','4','5','それ以上'])
 if konpou =='それ以上':
     konpou = st.text_input(
         "梱包数を入力してください")
