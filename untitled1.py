@@ -19,3 +19,4 @@ if konpou =='それ以上':
 
 st.write('出荷日：', syukka)
 st.write('物流センター：',buturyu)
+st.write('梱包数*',konpou)
